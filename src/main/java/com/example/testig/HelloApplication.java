@@ -19,6 +19,7 @@ public class HelloApplication extends Application {
         Button bouton = new Button("Jouer");
         border.setBottom(bouton);
         bouton.setOnAction(new Ecouteur());
+
         stage.setScene(new Scene(border, 400, 400));
         stage.show();
     }
